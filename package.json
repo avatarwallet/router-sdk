@@ -1,6 +1,6 @@
 {
   "name": "@xeiswap/router-sdk",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An sdk for routing swaps using Xeiswap v2 and Xeiswap v3.",
   "publishConfig": {
     "access": "public"
@@ -21,16 +21,15 @@
     "url": "https://github.com/Uniswap/router-sdk.git"
   },
   "keywords": [
-    "uniswap",
-    "ethereum"
+    "xeiswap"
   ],
   "license": "MIT",
   "dependencies": {
     "@ethersproject/abi": "^5.5.0",
     "@uniswap/swap-router-contracts": "^1.1.0",
-    "@xeiswap/sdk-core": "^0.0.2",
-    "@xeiswap/v2-sdk": "^0.0.2",
-    "@xeiswap/v3-sdk": "^0.0.2"
+    "@xeiswap/sdk-core": "^0.0.3",
+    "@xeiswap/v2-sdk": "^0.0.3",
+    "@xeiswap/v3-sdk": "^0.0.3"
   },
   "devDependencies": {
     "@types/jest": "^24.0.25",
